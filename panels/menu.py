@@ -50,7 +50,7 @@ class MenuPanel(ScreenPanel):
             if expandLast is True and i+1 == length and length % 2 == 1:
                 width = 2
 
-            self.grid.attach(self.labels[key], col, row, width, 0.5)
+            self.grid.attach(self.labels[key], col, row, width, 2)
             i += 1
 
         return self.grid
